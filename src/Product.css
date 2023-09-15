@@ -6,9 +6,9 @@
     padding: 20px;
     max-height: 400px;
     min-width: 100px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     z-index: 1;
-
+   
 }
 
 .product_rating{

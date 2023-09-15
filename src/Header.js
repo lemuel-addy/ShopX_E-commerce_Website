@@ -2,6 +2,7 @@ import React from "react";
 import "./Header.css";
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import StoreIcon from '@mui/icons-material/Store';
+import AppleIcon from '@mui/icons-material/Apple';
 import SearchIcon from '@mui/icons-material/Search';
 import LanguageIcon from '@mui/icons-material/Language';
 
@@ -9,7 +10,7 @@ function Header(){
     return(
         <div className="header">
             <div className="header_logo">
-                <LanguageIcon className="header_logoImage" fontSize='large'/>
+                <AppleIcon className="header_logoImage" fontSize='large'/>
                 <h2 className="header_logoTitle">ShopX</h2>
             </div>
 
@@ -25,7 +26,7 @@ function Header(){
                 </div>
                 <div className="nav_item">
                 <span className="nav_itemLineOne">Your</span>
-                <span className="nav_itemLineTwo">Shop</span>
+                <span className="nav_itemLineTwo">Cart</span>
                 </div>
                 <div className="nav_itemBasket">
                 <ShoppingCartIcon/>

@@ -11,12 +11,12 @@
 .header_logo{
     display: flex;
     align-items: center;
-    color: aqua;
+    color: rgb(46, 46, 46);
     margin: 0 25px;
 }
 
 .header_logoTitle{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
     color: whitesmoke;
     border: 0;
 }
@@ -26,7 +26,7 @@
 }
 
 .header_searchIcon{
-    background-color: aqua;
+    background-color: rgb(93, 93, 93);
     padding: 5px;
     height: 22px !important;
 }
