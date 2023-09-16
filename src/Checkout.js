@@ -11,8 +11,7 @@ function Checkout(){
                         Your Shopping Cart
                     </h2>
                     <CheckoutProduct/>
-                    <CheckoutProduct/>
-                    <CheckoutProduct/>
+                    
 
                 </div>
 
