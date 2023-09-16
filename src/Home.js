@@ -37,14 +37,14 @@ function Home(){
                             id = "33333"
                             title = "Apple iPhone X Gold 64gb"
                             price = {599.99}
-                            rating = {3.5}
+                            rating = {3}
                             image = "https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iphone/2022-spring-iphone13-pro-max-colors.png"
                         />
                         <Product
                             id = "22222"
                             title = "Apple iPhone 11 Pro Matte Green 128gb"
                             price = {699.99}
-                            rating = {4.5}
+                            rating = {4}
                             image = "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-40-iphone15prohero-202309?wid=680&hei=528&fmt=p-jpg&qlt=95&.v=1693086290312"
                         />
                         
@@ -68,7 +68,7 @@ function Home(){
                             id = "21222"
                             title = "Apple iPhone 11 Pro Matte Green 128gb"
                             price = {699.99}
-                            rating = {4.5}
+                            rating = {4}
                             image = "https://images.macrumors.com/t/yQ9qjY9aEl1VGRNOPash4QjlfPQ=/1600x0/article-new/2020/10/iphone-13-color-lineup.jpg"
                         />
                         <Product
