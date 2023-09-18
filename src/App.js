@@ -2,6 +2,7 @@ import './App.css';
 import React from "react";
 import Header from "./Header";
 import Home from "./Home";
+import Login from "./Login";
 import Checkout from "./Checkout";
 import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
 
@@ -19,6 +20,10 @@ function App() {
         <React.Fragment>
           <Header />
           <Home />
+        </React.Fragment>} />
+        <Route path="/login" element={
+        <React.Fragment>
+          <Login />
         </React.Fragment>} />
       </Routes>
 
