@@ -1,21 +1,33 @@
 import React from 'react'
 import "./CheckoutProduct.css";
+import { useStateValue } from './StateProvider';
 
+function CheckoutProduct({id,title,image,price,rating}) {
+    const [{basket},dispatch] = useStateValue();
 
-function CheckoutProduct() {
+    const removeFromBasket = ()=>{
+        dispatch({
+            type: "REMOVE_FROM_BASKET",
+            id: id,
+        })
+    }
   return (
         <div className="checkoutProduct">
-            <img src="https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iphone/identify-iphone-11pro-max.jpg" alt="" className="checkoutProduct_image" />
+            <img src={image} alt="" className="checkoutProduct_image" />
             <div className='checkoutProduct_info'>
-            <p className="checkoutProduct_title">Apple iPhone 15 Pro Max 128gb</p>
+            <p className="checkoutProduct_title">{title}</p>
             <p className="checkoutProduct_price">
                 <small>$</small>
-                <strong>1999.99</strong>
+                <strong>{price}</strong>
             </p>
             <div className="checkoutProduct_rating">
-                ⭐️⭐️⭐️⭐️⭐️
+                        {Array(rating)
+                        .fill()
+                        .map((_, i)=>(
+                            <p>⭐️</p>
+                        ))}
             </div>
-            <button>Remove from Cart</button>
+            <button onClick={removeFromBasket}>Remove from Cart</button>
             </div>
 
         </div>
